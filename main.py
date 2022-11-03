@@ -20,8 +20,7 @@ def getLetter():
     guesses.append(letter)
         
   # Return the letter
-  return letter
-  
+  return letter  
 
 
 # Create a function that displays the secret word
@@ -38,10 +37,8 @@ def displaySecretWord(wordReveal, guesses):
       
     # Otherwise, display an underscore ( _ )
     else:      
-      print("_", end=" ")
-      
+      print("_", end=" ")   
                  
-      
     
 # Create a function that determines if the user has won the game
 def hasUserWon(wordReveal, guesses):
